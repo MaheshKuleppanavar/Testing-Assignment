@@ -1,0 +1,104 @@
+[
+  {
+    "tc": "TC_01",
+    "firstName": "Mahesh",
+    "lastName": "K",
+    "email": "mahesh@test.com",
+    "mobile": "9876543210",
+    "gender": "Male",
+    "state": "NCR",
+    "city": "Delhi",
+    "expected": "success"
+  },
+  {
+    "tc": "TC_02",
+    "firstName": "Mahesh",
+    "lastName": "K",
+    "email": "mahesh@test.com",
+    "mobile": "9876543210",
+    "gender": "Male",
+    "state": "NCR",
+    "city": "Delhi",
+    "expected": "modal_data"
+  },
+  {
+    "tc": "TC_03",
+    "gender": "Male",
+    "expected": "gender_select"
+  },
+  {
+    "tc": "TC_04",
+    "hobbies": ["Reading", "Music"],
+    "expected": "hobby_select"
+  },
+  {
+    "tc": "TC_05",
+    "file": "tests/files/test.jpg",
+    "expected": "file_upload"
+  },
+  {
+    "tc": "TC_06",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "expected": "state_city_valid"
+  },
+  {
+    "tc": "TC_07",
+    "mobile": "9876543210",
+    "expected": "mobile_valid"
+  },
+  {
+    "tc": "TC_08",
+    "firstName": "",
+    "lastName": "",
+    "expected": "name_required"
+  },
+  {
+    "tc": "TC_09",
+    "email": "",
+    "expected": "email_optional"
+  },
+  {
+    "tc": "TC_10",
+    "mobile": "984527",
+    "expected": "mobile_invalid"
+  },
+  {
+    "tc": "TC_11",
+    "expected": "file_optional"
+  },
+  {
+    "tc": "TC_12",
+    "file": "tests/files/test.pdf",
+    "expected": "file_bug"
+  },
+  {
+    "tc": "TC_13",
+    "expected": "future_dob_bug"
+  },
+  {
+    "tc": "TC_14",
+    "state": "NCR",
+    "city": "Delhi",
+    "changeState": "Uttar Pradesh",
+    "expected": "city_not_refreshed"
+  },
+  {
+  "tc": "TC_15",
+  "state": "NCR",
+  "city": "Delhi",
+  "changeState": "Uttar Pradesh",
+  "expected": "city_not_refreshed"
+}
+,{
+  "tc": "TC_16",
+  "firstName": "Ravi",
+  "lastName": "Kumar",
+  "email": "ravi@test.com",
+  "mobile": "9123456789",
+  "gender": "Male",
+  "state": "Haryana",
+  "city": "Karnal",
+  "expected": "modal_data"
+}  
+]

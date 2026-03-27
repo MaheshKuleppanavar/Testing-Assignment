@@ -1,0 +1,47 @@
+[
+  {
+    "username": "student",
+    "password": "Password123",
+    "expected": "Logged In Successfully"
+  },
+  {
+    "username": "wrong",
+    "password": "Password123",
+    "expected": "Your username is invalid!"
+  },
+  {
+    "username": "student",
+    "password": "wrong",
+    "expected": "Your password is invalid!"
+  },
+  {
+    "username": "",
+    "password": "Password123",
+    "expected": "Your username is invalid!"
+  },
+  {
+    "username": "student",
+    "password": "",
+    "expected": "Your password is invalid!"
+  },
+  {
+    "username": "",
+    "password": "",
+    "expected": "Your username is invalid!"
+  },
+  {
+    "username": "Student",
+    "password": "Password123",
+    "expected": "Your username is invalid!"
+  },
+  {
+    "username": "student",
+    "password": "password123",
+    "expected": "Your password is invalid!"
+  },
+  {
+    "username": "student@123",
+    "password": "Password123",
+    "expected": "Your username is invalid!"
+  }
+]
